@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "weather",
+  "collection": "WeatherMapIcons",
+  "android": {
+    "repository": "android-icons-weather",
+    "namespace": "com.mapconductor.icons.weather"
+  },
+  "ios": {
+    "repository": "ios-icons-weather",
+    "module": "MapConductorIconsWeather"
+  },
+  "react": {
+    "repository": "react-icons-weather"
+  },
+  "icons": [
+    { "name": "clearDay", "id": "weather.clear_day", "file": "clear_day.svg", "description": "Clear daytime weather" },
+    { "name": "cloud", "id": "weather.cloud", "file": "cloud.svg", "description": "Cloudy weather" },
+    { "name": "rain", "id": "weather.rain", "file": "rain.svg", "description": "Rain" },
+    { "name": "snow", "id": "weather.snow", "file": "snow.svg", "description": "Snow" },
+    { "name": "thunderstorm", "id": "weather.thunderstorm", "file": "thunderstorm.svg", "description": "Thunderstorm" },
+    { "name": "wind", "id": "weather.wind", "file": "wind.svg", "description": "Wind" },
+    { "name": "fog", "id": "weather.fog", "file": "fog.svg", "description": "Fog" }
+  ]
+}
